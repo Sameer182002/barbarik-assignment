@@ -1,0 +1,10 @@
+.mainWrapper{
+    width: fit-content;
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    background-color: navy;
+    color: #fff;
+    cursor: pointer;
+}

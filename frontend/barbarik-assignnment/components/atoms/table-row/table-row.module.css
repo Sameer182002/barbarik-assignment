@@ -1,0 +1,14 @@
+.mainWrapper{
+    display: grid;
+    border-bottom: 1px solid grey;
+    /* grid-template-columns: repeat(4,1fr); */
+}
+.mainWrapper>p{
+    border-right: 1px solid grey;
+    margin: 0;
+    padding: 1rem;
+    /* text-align: center; */
+}
+.mainWrapper>p:last-child{
+    border: unset;
+}

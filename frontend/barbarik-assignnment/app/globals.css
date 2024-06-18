@@ -1,0 +1,23 @@
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Poppins', 'Arial','DM Sans', sans-serif;
+    color: #1D252D;
+    box-sizing: border-box;
+  }
+
+  button{
+    outline: 0;
+    border: none;
+  }
+
+:root {
+    --global-primary-color-one:#6F4E37;
+    --global-primary-color-two:#A67B5B;
+    --global-primary-color-three:#ECB176;
+    --global-primary-color-four : #FED8B1;
+    --global-primary-color-five : #F6F8FB ;
+}

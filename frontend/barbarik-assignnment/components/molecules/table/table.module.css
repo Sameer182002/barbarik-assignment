@@ -1,0 +1,11 @@
+.mainWrapper{
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.mainWrapper:last-child{
+    border-bottom: unset !important;
+}

@@ -1,0 +1,13 @@
+.rawDataWrapper{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+.rawDataWrapper>div{
+    flex: 1;
+    flex-shrink: 0;
+    overflow: auto;
+}
+.rawDataWrapper>div>p{
+    word-break: break-all;
+}
