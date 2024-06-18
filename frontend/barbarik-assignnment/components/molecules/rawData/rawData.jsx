@@ -12,7 +12,14 @@ export default function RawData({
                     <>
                         {rawData?.expenses?.map((item,index)=>{
 
-                            return Object.keys(item).map((objItem)=><p>{objItem} : {JSON.stringify(item[objItem])}</p>)
+                            return (
+                                <div key={index} className={styles.itemIndexAndDatawrapper}>
+                                    <p>{`${index + 1})`}</p>
+                                    <p>
+                                        {Object.keys(item).map((objItem,index)=><p key={index}>{objItem} : {JSON.stringify(item[objItem])}</p>)}
+                                    </p>
+                                </div>
+                            )
                         })}
                     </>
                 }
@@ -24,7 +31,14 @@ export default function RawData({
                     <>
                         {rawData?.invoices?.map((item,index)=>{
 
-                            return Object.keys(item).map((objItem)=><p>{objItem} : {JSON.stringify(item[objItem])}</p>)
+                            return (
+                                <div key={index} className={styles.itemIndexAndDatawrapper}>
+                                    <p>{`${index + 1})`}</p>
+                                    <p>
+                                        {Object.keys(item).map((objItem,index)=><p key={index}>{objItem} : {JSON.stringify(item[objItem])}</p>)}
+                                    </p>
+                                </div>
+                            )
                         })}
                     </>
                 }

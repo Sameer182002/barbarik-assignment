@@ -8,6 +8,12 @@
     flex-shrink: 0;
     overflow: auto;
 }
-.rawDataWrapper>div>p{
+.rawDataWrapper>div>div>p{
     word-break: break-all;
+}
+
+.itemIndexAndDatawrapper{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
 }
